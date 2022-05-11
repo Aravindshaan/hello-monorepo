@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master ]
     paths:
-     - 'packages/apple'
+     - 'packages/apple/**'
   pull_request:
     branches: [ master ]
 
