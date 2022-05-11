@@ -8,6 +8,7 @@ on:
     branches: [ master ]
     paths:
       - 'packages/apple/**'
+      - 'packages/banana/**' 
        
   pull_request:
     branches: [ master ]
