@@ -9,6 +9,7 @@ on:
     paths:
       - 'packages/apple/**'
       - 'packages/banana/**' 
+      - 'packages/grocery/**' 
        
   pull_request:
     branches: [ master ]
