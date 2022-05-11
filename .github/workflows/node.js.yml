@@ -8,8 +8,8 @@ on:
     branches: [ master ]
     paths:
       - 'packages/apple/**'
-      - 'packages/banana/**' 
-      - 'packages/grocery/**' 
+      - '!packages/banana/**' 
+      - '!packages/grocery/**' 
        
   pull_request:
     branches: [ master ]
