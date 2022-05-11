@@ -1,6 +1,6 @@
 const sillyname = require('sillyname');
-const apple = require('appleee');
-const banana = require('banana aa');
+const apple = require('apple');
+const banana = require('banana');
 
 console.log(`grocery and ${sillyname()}`);
 console.log(apple);
